@@ -77,4 +77,4 @@ def send_attendance_request(face_id: str) -> bool:
         return False
     
 if __name__ == "__main__":
-    recognize_faces(0)
+    recognize_faces('self.mp4')
