@@ -31,7 +31,7 @@ This project is a facial attendance system that utilizes Flask for the backend, 
 
 ## Usage
 
-1.  📸 Run `dataset.py` or `webcam_dataset.py` to gather photos for the dataset.
+1.  📸 Run dataset.py to gather photos from a video or webcam_dataset.py to capture photos from a live camera feed for the dataset.
 2.  🚀 Run `trainer.py` to train the model using the gathered dataset.
 3.  ⚙️ Ensure that the Flask server is running by executing `python3 app.py`.
 4.  👀 Run `face_recognizer.py` to recognize faces and mark attendance.
